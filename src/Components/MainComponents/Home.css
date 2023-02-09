@@ -224,3 +224,8 @@ button:hover{
    color: black;
    text-decoration: underline;
 }
+
+#segment img{
+   Height : 50em ;
+   width: 100em;
+}
