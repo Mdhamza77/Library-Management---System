@@ -13,7 +13,7 @@ import Homepage from "../Components/Layouts/Footer/Homepage";
 import User from "../Components/Admin/Pages/User";
 import Feedback from "../Components/User/Pages/Feedback";
 import EditUser from "../Components/Admin/Pages/EditUser";
-
+import EditMyProfile from '../Components/User/Pages/EditMyProfile'
 import Myprofile from "../Components/User/Pages/Myprofile";
 const Routing = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
@@ -61,6 +61,9 @@ const Routing = () => {
         {isUserLoggedin && isAdmin && (
           <Route path="/EditUser/:id" element={<EditUser />}></Route>
         )}
+          {isUserLoggedin && !isAdmin && (
+          <Route path="/EditMyProfile/:id" element={<EditMyProfile/>}></Route>
+        )}     
       </Routes>
     </div>
   );

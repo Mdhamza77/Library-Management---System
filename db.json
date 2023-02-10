@@ -11,17 +11,19 @@
       "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1659521003.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*"
     },
     {
-      "id": 2,
       "firstName": "Muhaimin",
-      "lastName": "Jamal",
+      "lastName": "Jamal E.N",
+      "img": "https://c4.wallpaperflare.com/wallpaper/379/128/837/cillian-murphy-dark-haired-actor-face-wallpaper-preview.jpg",
+      "content": "I've always loved the Victorian period in English literature. Even as a kid, Dickens captured my imagination more thoroughly than the Harry Potter stories or anything else. As an undergraduate at Northwestern University, I studied English with a concentration on Victorian fiction. Now, I hope to continue exploring this fundamentally important literary period as a graduate student.",
       "email": "muhaimin123@gmail.com",
       "password": "Muhaimin@123",
-      "content": "I've always loved the Victorian period in English literature. Even as a kid, Dickens captured my imagination more thoroughly than the Harry Potter stories or anything else. As an undergraduate at Northwestern University, I studied English with a concentration on Victorian fiction. Now, I hope to continue exploring this fundamentally important literary period as a graduate student.",
-      "img": "https://c4.wallpaperflare.com/wallpaper/379/128/837/cillian-murphy-dark-haired-actor-face-wallpaper-preview.jpg"
+      "id": 2
     },
     {
       "firstName": "Mohmmed",
       "lastName": "Shafaaz",
+      "img": "https://c4.wallpaperflare.com/wallpaper/284/792/35/men-christian-bale-actors-2592x3714-people-actors-hd-art-wallpaper-preview.jpg",
+      "content": "Shafaaz is an English actor. Known for his versatility and physical transformations for his roles, he has been a leading man in films of several genres. He has received various accolades, including an Academy Award and two Golden Globe Awards",
       "email": "shafaaz123@gmail.com",
       "password": "Shafaaz@123",
       "id": 3
@@ -31,7 +33,9 @@
       "lastName": "Armas",
       "email": "armas07@gmail.com",
       "password": "Armas@07",
-      "id": 4
+      "id": 4,
+      "img": "",
+      "content": ""
     }
   ],
   "Books": [
