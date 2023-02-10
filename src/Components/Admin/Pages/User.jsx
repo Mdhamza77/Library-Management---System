@@ -11,6 +11,7 @@ const User = () => {
     ? sessionStorage.getItem("isAdmin")
     : false;
   const [user, getUser] = useState([]);
+  const email = sessionStorage.getItem("email");
   const navigate = useNavigate();
   const getData = async () => {
     return await getAll()
@@ -44,7 +45,11 @@ const User = () => {
         <div>
           <br />
           <h1>User Dashboard Details</h1>
-          {user.map((users) => (
+          {
+            // eslint-disable-next-line
+          user.filter( (e) => {
+             if(e.email !== email)  return email 
+          }).map((users) => (
             <div key={users.id}>
               <div className="card">
                 <Form>
