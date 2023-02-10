@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form, Button } from "semantic-ui-react";
 import { toast } from "react-toastify";
-import api from "../../../services/api";
 import { deleteBooks } from "../../../services/Book/book.service";
-import { useEffect } from "react";
 
 const List = ({ posts, loading }) => {
   const [value, setValue] = useState("");
