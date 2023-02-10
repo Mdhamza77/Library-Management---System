@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/style.css";
+
+import "../../assets/Styles/style.css";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
   const pageNumbers = [];

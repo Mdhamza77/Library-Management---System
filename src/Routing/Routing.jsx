@@ -9,11 +9,10 @@ import Admin from "../Components/Admin/Admin";
 import Rent from "../Components/User/Rent";
 import RentList from "../Components/User/RentList";
 import NoMatch from "../Components/MainComponents/NoMatch";
-import Homepage from "../Components/MainComponents/Homepage";
+import Homepage from "../Components/Layouts/Footer/Homepage";
 import User from "../Components/Admin/User";
 import Feedback from "../Components/User/Feedback";
 import EditUser from "../Components/Admin/EditUser";
-
 
 import Myprofile from "../Components/User/Myprofile";
 const Routing = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form, Button, TextArea } from "semantic-ui-react";
-import "../Styles/Home.css";
+import "../../assets/Styles/Home.css";
 import { postFeedBack } from "../../services/Home/home.service";
 
 const Feedback = () => {

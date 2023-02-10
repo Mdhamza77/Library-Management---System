@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "../Styles/Home.css";
+import "../../../assets/Styles/Home.css";
 import {
   getHomeData,
   getCards,
   getFeedBack,
-} from "../../services/Home/home.service";
+} from "../../../services/Home/home.service";
 const Homepage = () => {
   const [feedback, getFeedB] = useState([]);
   const [card, getCard] = useState([]);

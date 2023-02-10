@@ -1,4 +1,4 @@
-import "./Components/Styles/App.css";
+import "./assets/Styles/App.css";
 import Home from "./Components/MainComponents/Home";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";

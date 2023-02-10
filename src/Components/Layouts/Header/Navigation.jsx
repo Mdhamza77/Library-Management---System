@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
-import "../Styles/style.css";
+import "../../../assets/Styles/style.css";
 const Navigation = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
     ? sessionStorage.getItem("isUserLoggedin")
