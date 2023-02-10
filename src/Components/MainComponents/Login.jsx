@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button } from "semantic-ui-react";
-import { emailValidator, passwordValidator } from "../../utils/RegexValidator";
+import { emailValidator, passwordValidator } from "../../utils/Validation/RegexValidator";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { userValidate } from "../../services/User/user.service";

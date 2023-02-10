@@ -1,5 +1,5 @@
 import React from "react";
-import Routing from "../Routing/Routing";
+import Routing from "../../Routing/Routing";
 import Navigation from "../Layouts/Navigation";
 const Home = () => {
   return (

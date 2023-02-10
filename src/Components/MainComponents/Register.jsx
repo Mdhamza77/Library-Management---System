@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Button } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import "../Styles/Home.css";
-import { emailValidator, passwordValidator } from "../../utils/RegexValidator";
+import { emailValidator, passwordValidator } from "../../utils/Validation/RegexValidator";
 import { toast } from "react-toastify";
 import { addUser } from "../../services/User/user.service";
 export default function Register() {

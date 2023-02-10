@@ -1,21 +1,21 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import AddBooks from "../Admin/AddBooks";
-import Login from "../MainComponents/Login";
-import Register from "../MainComponents/Register";
-import Home from "../User/home";
-import EditBooks from "../Admin/EditBooks";
-import Admin from "../Admin/Admin";
-import Rent from "../User/Rent";
-import RentList from "../User/RentList";
-import NoMatch from "../MainComponents/NoMatch";
-import Homepage from "../MainComponents/Homepage";
-import User from "../Admin/User";
-import Feedback from "../User/Feedback";
-import EditUser from "../Admin/EditUser";
+import AddBooks from "../Components/Admin/AddBooks";
+import Login from "../Components/MainComponents/Login";
+import Register from "../Components/MainComponents/Register";
+import Home from "../Components/User/home";
+import EditBooks from "../Components/Admin/EditBooks";
+import Admin from "../Components/Admin/Admin";
+import Rent from "../Components/User/Rent";
+import RentList from "../Components/User/RentList";
+import NoMatch from "../Components/MainComponents/NoMatch";
+import Homepage from "../Components/MainComponents/Homepage";
+import User from "../Components/Admin/User";
+import Feedback from "../Components/User/Feedback";
+import EditUser from "../Components/Admin/EditUser";
 
 
-import Myprofile from "../User/Myprofile";
+import Myprofile from "../Components/User/Myprofile";
 const Routing = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
     ? sessionStorage.getItem("isUserLoggedin")
