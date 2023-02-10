@@ -4,8 +4,8 @@ import { emailValidator, passwordValidator } from "../../utils/RegexValidator";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { userValidate } from "../../services/User/user.service";
-import showPwdImg from "./show-password.svg";
-import hidePwdImg from "./hide-password.svg";
+import showPwdImg from "../../assets/Icons/show-password.svg";
+import hidePwdImg from "../../assets/Icons/hide-password.svg";
 
 const Login = () => {
   const [email, setEmail] = useState("");

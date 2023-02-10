@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
-import "../MainComponents/Home.css";
+import "../Styles/Home.css";
 import { emailValidator, passwordValidator } from "../../utils/RegexValidator";
 import { toast } from "react-toastify";
 import { addUser } from "../../services/User/user.service";

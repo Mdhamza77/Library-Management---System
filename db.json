@@ -20,13 +20,11 @@
       "img": "https://c4.wallpaperflare.com/wallpaper/379/128/837/cillian-murphy-dark-haired-actor-face-wallpaper-preview.jpg"
     },
     {
-      "id": 3,
       "firstName": "Mohmmed",
       "lastName": "Shafaaz",
       "email": "shafaaz123@gmail.com",
-      "content": "During my freshman year of high school, I started a business designing and making custom prom dresses. It started with just four or five girls, but by the time I was a senior, everyone wanted to wear one of my gowns. I had two other girls helping me with the sewing, but I did the design work myself. I've known for a long time that I wanted to go into fashion design, but I also know there's a lot I still want to learn about the artistic and business sides of the field. That's why I really want to attend the Fashion Institute of Technology.",
-      "img": "https://c4.wallpaperflare.com/wallpaper/750/982/340/actors-christian-bale-actor-celebrity-wallpaper-preview.jpg",
-      "password": "Shafaaz@123"
+      "password": "Shafaaz@123",
+      "id": 3
     },
     {
       "firstName": "Ana de",
@@ -240,7 +238,7 @@
       "title": "About",
       "About": "The library card is a passport to wonders and miracles, glimpses into other lives, religions, experiences, the hopes and dreams and strivings of ALL human beings, and it is this passport that opens our eyes and hearts to the world beyond our front doors, that is one of our best hopes against tyranny, xenophobia, hopelessness, despair, anarchy, and ignorance..",
       "sub": "Libraries store the energy that fuels the imagination. They open up windows to the world and inspire us to explore and achieve, and contribute to improving our quality of life.",
-      "img": "https://cdn.dribbble.com/users/508588/screenshots/14009905/media/ee568ce51546e456c9ea0cf9e623e329.jpg"
+      "img": "https://www.creativ-eras.com/assets/images/library-slider-img-3.jpg"
     }
   ]
 }

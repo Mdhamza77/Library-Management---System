@@ -204,7 +204,9 @@ div .feedback{
 #segment {
    
    background-repeat: no-repeat;
-   background-size: cover;
+   background-color :rgb(217, 230, 242);
+
+   border-style: none;
 }
 
 
@@ -223,9 +225,12 @@ button{
 button:hover{
    color: black;
    text-decoration: underline;
+   cursor: pointer;
+   
 }
 
 #segment img{
-   Height : 50em ;
    width: 100em;
+   image-rendering: crisp-edges;
 }
+

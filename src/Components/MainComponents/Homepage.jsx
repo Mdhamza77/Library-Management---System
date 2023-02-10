@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Home.css";
+import "../Styles/Home.css";
 import {
   getHome,
   getCards,
@@ -40,10 +40,10 @@ const Homepage = () => {
   return (
     <div>
       <div>
-        <div className="ui segment" id="segment">
+        <div className="" id="segment">
           {home.map((item) => (
             <div>
-              <img src={item.img} alt="" />
+              <img className="img" src={item.img} alt="" />
               <h1>{item.title}</h1>
               <p>{item.About}</p>
               <p className="ui center">{item.sub}</p>
@@ -122,7 +122,6 @@ const Homepage = () => {
               <a href="/">home</a>
               <a href="/">about</a>
               <a href="/">review</a>
-              <a href="/">contact</a>
             </div>
 
             <div className="box">
