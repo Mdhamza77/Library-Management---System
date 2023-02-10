@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Ap from "../Pagination/Ap";
+import BookList from '../Pagination/index'
 
 const Admin = () => {
   const navigate = useNavigate();
@@ -9,12 +9,12 @@ const Admin = () => {
     if (email === "" || email === null) {
       navigate("/login");
     }
-    <Ap />;
+    
   }, []);
 
   return (
     <div>
-      <Ap />
+      <BookList />
     </div>
   );
 };

@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import APosts from "./APosts";
-import Posts from "./UPosts";
+import APosts from "../Admin/APosts";
+import Posts from "../User/UPosts";
 import Pagination from "./Pagination";
-import api from "../../services/api";
 import { getAllBooks } from "../../services/Book/book.service";
 
-const Ap = () => {
+const BookList = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -55,4 +54,4 @@ const Ap = () => {
   );
 };
 
-export default Ap;
+export default BookList;
