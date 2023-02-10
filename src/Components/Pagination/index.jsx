@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import APosts from "../Admin/APosts";
-import Posts from "../User/UPosts";
+import APosts from "../Admin/Pages/APosts";
+import Posts from "../User/Pages/UPosts";
 import Pagination from "./Pagination";
 import { getAllBooks } from "../../services/Book/book.service";
 

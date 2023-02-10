@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Form, Button } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import api from "../../services/api";
-import { getData, returnBook } from "../../services/Rent/rent.service";
+import { getData, returnBook } from "../../../services/Rent/rent.service";
 
 const RentList = () => {
   const [rentedbook, getRentedBooks] = useState([]);

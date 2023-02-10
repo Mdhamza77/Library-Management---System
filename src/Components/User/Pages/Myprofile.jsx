@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getAll } from "../../services/User/user.service";
+import { getAll } from "../../../services/User/user.service";
 import { useNavigate } from "react-router-dom";
 const Myprofile = () => {
   const [data, getData] = useState([]);

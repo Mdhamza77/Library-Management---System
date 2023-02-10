@@ -1,20 +1,20 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import AddBooks from "../Components/Admin/AddBooks";
+import AddBooks from "../Components/Admin/Pages/AddBooks";
 import Login from "../Components/MainComponents/Login";
 import Register from "../Components/MainComponents/Register";
 import Home from "../Components/User/home";
-import EditBooks from "../Components/Admin/EditBooks";
+import EditBooks from "../Components/Admin/Pages/EditBooks";
 import Admin from "../Components/Admin/Admin";
-import Rent from "../Components/User/Rent";
-import RentList from "../Components/User/RentList";
+import Rent from "../Components/User/Pages/Rent";
+import RentList from "../Components/User/Pages/RentList";
 import NoMatch from "../Components/MainComponents/NoMatch";
 import Homepage from "../Components/Layouts/Footer/Homepage";
-import User from "../Components/Admin/User";
-import Feedback from "../Components/User/Feedback";
-import EditUser from "../Components/Admin/EditUser";
+import User from "../Components/Admin/Pages/User";
+import Feedback from "../Components/User/Pages/Feedback";
+import EditUser from "../Components/Admin/Pages/EditUser";
 
-import Myprofile from "../Components/User/Myprofile";
+import Myprofile from "../Components/User/Pages/Myprofile";
 const Routing = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
     ? sessionStorage.getItem("isUserLoggedin")

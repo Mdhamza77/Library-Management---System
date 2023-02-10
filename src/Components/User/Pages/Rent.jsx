@@ -3,11 +3,10 @@ import { Form, Button } from "semantic-ui-react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useNavigate } from "react-router-dom";
-import "../../assets/Styles/Home.css";
 import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import { getBooks } from "../../services/Book/book.service";
-import { rentBooks } from "../../services/Rent/rent.service";
+import { getBooks } from "../../../services/Book/book.service";
+import { rentBooks } from "../../../services/Rent/rent.service";
 const RentList = () => {
   const navigate = useNavigate();
   const [bookName, setBookName] = useState("");

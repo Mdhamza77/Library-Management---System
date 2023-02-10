@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button, TextArea } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
-import { addBooks } from "../../services/Book/book.service";
+import { addBooks } from "../../../services/Book/book.service";
 import { toast } from "react-toastify";
 
 const AddBooks = () => {

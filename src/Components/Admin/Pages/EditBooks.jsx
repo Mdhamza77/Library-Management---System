@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { TextArea, Form, Button } from "semantic-ui-react";
-import "../../assets/Styles/Home.css";
-import { editBooks, getBooks } from "../../services/Book/book.service";
+import { editBooks, getBooks } from "../../../services/Book/book.service";
 
 const EditBooks = () => {
   const navigate = useNavigate();

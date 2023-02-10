@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button, Form } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { getAll, deleteUser } from "../../services/User/user.service";
+import { getAll, deleteUser } from "../../../services/User/user.service";
 const User = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
     ? sessionStorage.getItem("isUserLoggedin")
