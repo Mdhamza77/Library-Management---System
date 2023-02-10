@@ -1,7 +1,7 @@
 import api from "../api";
 
-export const getHome = async () => {
-  return await api.get("/Home");
+export const getHomeData = async () => {
+  return await api.get("/getData");
 };
 
 export const getCards = async () => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Home.css";
 import {
-  getHome,
+  getHomeData,
   getCards,
   getFeedBack,
 } from "../../services/Home/home.service";
@@ -11,7 +11,7 @@ const Homepage = () => {
   const [home, getHom] = useState([]);
 
   const get = async () => {
-    return await getHome()
+    return await getHomeData()
       .then((res) => getHom(res.data))
       .catch((err) => console.log(err));
   };

@@ -55,15 +55,15 @@ const Navigation = () => {
             </Link>
           )}
 
-          {isUserLoggedin && isAdmin && <Link to="/addbooks">Add Books</Link>}
-          {isUserLoggedin && isAdmin && <Link to="/User">user details</Link>}
+          {isUserLoggedin && isAdmin && <Link to="/addbooks">Add-Books</Link>}
+          {isUserLoggedin && isAdmin && <Link to="/User">User-Profile</Link>}
           {isUserLoggedin && !isAdmin && <Link to="/RentList">My Books</Link>}
         </nav>
 
         <div className="icons">
           {isUserLoggedin && (
             <Link className="fas fa-user" to="/profile">
-              MyProfile
+               MyProfile
             </Link>
           )}
           {!isUserLoggedin && (
@@ -77,7 +77,7 @@ const Navigation = () => {
             </Link>
           )}
 
-          {isUserLoggedin && <Link onClick={logout}>Logout</Link>}
+          {isUserLoggedin &&  <b><Link onClick={logout}>Logout</Link></b>}
           {isUserLoggedin && !isAdmin && <Link to="/feedback">FeedBack</Link>}
         </div>
       </header>
