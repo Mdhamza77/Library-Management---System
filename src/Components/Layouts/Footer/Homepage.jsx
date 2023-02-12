@@ -42,7 +42,7 @@ const Homepage = () => {
       <div>
         <div className="" id="segment">
           {home.map((item) => (
-            <div>
+            <div key={item.id}>
               <img className="img" src={item.img} alt="" />
               <h1>{item.title}</h1>
               <p>{item.About}</p>
@@ -77,7 +77,7 @@ const Homepage = () => {
         </div>
 
         {feedback.map((feed) => (
-          <div className="uis">
+          <div className="uis" key={feed.id}>
             <section className="review" id="review">
               <h1 className="heading">
                 {" "}
@@ -136,7 +136,7 @@ const Homepage = () => {
             {" "}
             created by{" "}
             <span>
-              <i class="copyright icon"></i>Hamza
+              <i className="copyright icon"></i>Hamza
             </span>{" "}
             | all rights reserved{" "}
           </div>

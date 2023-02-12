@@ -2,7 +2,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
-import { Form, Button } from "semantic-ui-react";
+import showPwdImg from "../../../assets/Icons/show-password.svg";
+import hidePwdImg from "../../../assets/Icons/hide-password.svg";
+import { Form, Button , TextArea } from "semantic-ui-react";
 import { getUser, editUser } from "../../../services/User/user.service";
 
 const EditUser = () => {
@@ -11,6 +13,9 @@ const EditUser = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [img ,setImg] = useState("")
+  const [content , setContent] = useState("");
+  const [isRevealPwd, setIsRevealPwd] = useState(false);
   const { id } = useParams();
 
   useEffect(() => {
@@ -24,6 +29,8 @@ const EditUser = () => {
         setLastName(resp.data.lastName);
         setEmail(resp.data.email);
         setPassword(resp.data.password);
+        setImg(resp.data.img) ;
+        setContent(resp.data.content);
       })
       .catch((err) => {
         console.log(err);
@@ -94,18 +101,39 @@ const EditUser = () => {
             />
           </Form.Field>
 
-          <Form.Field>
-            <label htmlFor="password">Password</label>
+          <Form.Field className='pwd-container'>
+            <label htmlFor="password">Password
             <input
               placeholder="Password"
               id="password"
-              type="password"
+              type={isRevealPwd ? "text" : "password"}
               value={password}
               required
-              disabled
               onChange={(e) => setPassword(e.target.value)}
             />
+             <img
+                  title={isRevealPwd ? "Hide password" : "Show password"}
+                  src={isRevealPwd ? hidePwdImg : showPwdImg}
+                  onClick={() => setIsRevealPwd((prevState) => !prevState)}
+                />
+                </label>
           </Form.Field>
+          <Form.Field>
+                    <label>Profile Image</label>
+                    <input type='text' value={img} 
+                       placeholder = 'profile image'
+                       onChange={(e)=>setImg(e.target.value)}
+                    />
+                </Form.Field>
+                <Form.Field>
+                    <label>About you</label>
+                    <TextArea type='text' value={content} 
+                       placeholder = 'Tell us About you'
+                       min = "20"
+                       max= "150"
+                       onChange={(e)=>setContent(e.target.value)}
+                    />
+                </Form.Field>
 
           <Button className="blue" onClick={handleSubmit}>
             Save
