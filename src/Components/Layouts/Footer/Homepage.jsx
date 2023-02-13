@@ -119,9 +119,9 @@ const Homepage = () => {
           <div className="box-container">
             <div className="box">
               <h3>quick links</h3>
-              <a href="/">home</a>
-              <a href="/">about</a>
-              <a href="/">review</a>
+              <a href="#Home">home</a>
+              <a href="#segment">about</a>
+              <a href="#review">review</a>
             </div>
 
             <div className="box">
