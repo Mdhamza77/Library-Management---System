@@ -11,7 +11,6 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isRevealPwd, setIsRevealPwd] = useState(false);
-  const x = () => window.location.reload(true);
   const [err, setErr] = useState("");
   const [success, setSuccess] = useState("");
   const navigate = useNavigate();
@@ -35,15 +34,13 @@ const Login = () => {
               sessionStorage.setItem("isAdmin", true);
               sessionStorage.setItem("user", "Admin");
               sessionStorage.setItem("isUserLoggedin", true);
-
               navigate("/Admin");
-              x();
+              window.location.reload(true);
             } else if (!Admin) {
               sessionStorage.setItem("email", email);
               sessionStorage.setItem("isUserLoggedin", true);
-
               navigate("/home");
-              x();
+              window.location.reload(true);
             }
           }
         })
@@ -92,7 +89,7 @@ const Login = () => {
           </div>
           {err.length > 0 && <p>{err}</p>}
           {success.length > 0 && <p>{success}</p>}
-          <Button type="submit" className="blue">
+          <Button type="submit" className="blue" disabled={!email || !password}>
             Login
           </Button>
         </Form>
