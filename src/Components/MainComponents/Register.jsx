@@ -106,8 +106,8 @@ export default function Register() {
           </Form.Field>
           {err.length > 0 && <p>{err}</p>}
           {success.length > 0 && <p>{success}</p>}
-          <Button className="blue" type="submit">
-            Signup
+          <Button className="blue" type="submit" disabled={!firstName ||  !lastName || !email || !password  }>
+            Register
           </Button>
         </Form>
       </div>
