@@ -1,25 +1,28 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-
 import Login from "../Components/MainComponents/Login";
-
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
   useNavigate: () => jest.fn(),
 }));
 
+
+
 describe("login component", () => {
   it("Enables Button when both input field is not empty", () => {
     render(<Login />);
-
+          
+    
     const email = screen.getByLabelText("Email");
     const password = screen.getByLabelText("Password");
-    const button = screen.getByRole("button");
+    const button = screen.getByRole("button"); 
+    
     expect(email).toBeInTheDocument();
     expect(password).toBeInTheDocument();
     expect(button).toBeDisabled();
 
     fireEvent.change(email, { target: { value: "usertest123@gmail.com" } });
     fireEvent.change(password, { target: { value: "User@123" } });
+
     expect(button).toBeEnabled();
   });
 
@@ -32,7 +35,7 @@ describe("login component", () => {
   });
 
   it("Submit form button is Enabled", () => {
-    const onSubmit = jest.fn(); // creating a “mock” functio
+    const onSubmit = jest.fn(); // creating a “mock” function  
     render(<Login onSubmit={onSubmit} />);
     const email = screen.getByLabelText("Email");
     const password = screen.getByLabelText("Password");
@@ -44,5 +47,6 @@ describe("login component", () => {
     fireEvent.change(email, { target: { value: "usertest123@gmail.com" } });
     fireEvent.change(password, { target: { value: "User@123" } });
     expect(button).toBeEnabled();
+    expect(onSubmit).toHaveBeenCalledTimes(0)
   });
 });

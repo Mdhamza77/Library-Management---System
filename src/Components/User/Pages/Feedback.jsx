@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form, Button, TextArea } from "semantic-ui-react";
 import { postFeedBack } from "../../../services/Home/home.service";
+import { textArea } from "../../../utils/Validation/RegexValidator";
 
 const Feedback = () => {
   const navigate = useNavigate();
+
   let user = sessionStorage.getItem("email");
   const [feedback, setFeedback] = useState("");
 
@@ -13,6 +15,8 @@ const Feedback = () => {
       User: user,
       feed: feedback,
     };
+    if(!textArea(feedback)) return <p>enter the input field</p>
+    else 
     return await postFeedBack(feed)
       .then((res) => {
         setFeedback(res.data);
@@ -40,6 +44,7 @@ const Feedback = () => {
             <TextArea
               type="text"
               placeholder="Write FeedBack about Website"
+              minlength="10" maxlength="20"
               required
               onChange={(e) => setFeedback(e.target.value)}
             />

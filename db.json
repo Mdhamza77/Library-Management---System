@@ -31,7 +31,8 @@
     {
       "firstName": "Ana de",
       "lastName": "Armas",
-      "img": "https://media.gettyimages.com/id/1169208133/photo/indian-actor-shraddha-kapoor-attends-the-media-interview-for-film-promotion-saaho-on-august.jpg?s=612x612&w=0&k=20&c=p6l9mu3sp_KykP0v8yn_K2Y6EO2CJVZxz7Chpe02ZlI=",
+      "img": "https://wallpaperaccess.com/full/1907859.jpg",
+      "content": "I am graduated at oxford university for My bachelor degree in Architectural survey and librarian modules and thus along side my interest is to Read and learn more books.",
       "email": "armas07@gmail.com",
       "password": "Armas@07",
       "id": 4
@@ -163,17 +164,6 @@
       "RentUpto": "Thu Feb 09 2023",
       "BookId": "10",
       "id": 6
-    },
-    {
-      "title": "The Lost Symbol",
-      "Description": "Renowned Harvard symbologist Robert Langdon is invited to give a lecture at the United States Capitol, at the invitation apparently from his mentor, a 33rd degree Mason named Peter Solomon, who is the head of the Smithsonian Institution. Solomon has also asked him to bring a small, sealed package which he had entrusted to Langdon years earlier. When Langdon arrives at the Capitol, however, he learns that the invitation he received was not from Solomon, but from Solomon's kidnapper, Mal'akh posing as Solomon's assistant, who has left Solomon's severed right hand in the middle of the Capitol Rotunda in a recreation of the Hand of Mysteries. Mal'akh then contacts Langdon, charging him with finding both the Mason's Pyramid, which Masons believe is hidden somewhere in Washington, D.C., and the Lost Word, lest Solomon be murdered.\n\nLangdon meets Inoue Sato, the head of the CIA's Office of Security. Sato claims that Mal'akh poses a threat to the national security of the U.S. and that his capture is more important than Peter's rescue, although she refuses to elaborate. Examining Solomon's hand, they discover a clue leading them to Solomon's Masonic altar in a room in the Capitol's sub-basement, where they find a small pyramid lacking a capstone, with an inscription carved into it.\n\nSato then confronts Langdon with the security x-ray taken of his bag when he entered the Capitol which reveals a smaller pyramid in the package Langdon brought in response to the request by the kidnapper posing as Solomon's assistant. Langdon explains that he was unaware of its contents, but Sato, refusing to believe it, attempts to take Langdon into custody. Before she can arrest him, however, she and Capitol Police Chief Trent Anderson are assaulted by Warren Bellamy, the Architect of the Capitol and a Freemason, who then flees with Langdon in the confusion. He later explains to Langdon that he too has been in contact with Mal'akh and wants Langdon's assistance in rescuing Peter.",
-      "AuthorName": "Robert Langdon",
-      "price": "270",
-      "email": "armas07@gmail.com",
-      "RentFrom": "Mon Feb 13 2023",
-      "RentUpto": "Mon Feb 20 2023",
-      "BookId": "3",
-      "id": 7
     }
   ],
   "FeedBack": [

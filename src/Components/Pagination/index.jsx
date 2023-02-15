@@ -31,9 +31,11 @@ const BookList = () => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+  
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
 
   return (
     <div className="container">
