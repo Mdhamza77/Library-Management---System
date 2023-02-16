@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@auth0/auth0-spa-js": "^2.0.2",
     "@testing-library/jest-dom": "^5.16.5",
