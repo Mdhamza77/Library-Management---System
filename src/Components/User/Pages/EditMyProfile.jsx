@@ -75,7 +75,7 @@ const EditMyProfile = () => {
               value={email}
               required
               readOnly
-              onChange={(e) => setEmail(e.target.value)}
+              
             />
           </Form.Field>
 
