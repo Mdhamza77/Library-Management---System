@@ -9,21 +9,24 @@ const RentList = () => {
   const email = sessionStorage.getItem("email");
   const navigate = useNavigate();
   useEffect(() => {
-    getData()
-      .then((res) => {
-        getRentedBooks(res.data);
-        console.log(res.data);
-      })
-      .catch((err) => console.log(err));
+     get()
   }, []);
+
+  const get = () => {
+    getData()
+    .then((res) => {
+      getRentedBooks(res.data);
+      
+    })
+    .catch((err) => console.log(err));
+  }
 
   const Return = (id) => {
     returnBook(id).then((res) => {
       toast("Returned Book Successfully");
       navigate("/home");
       getRentedBooks();
-      console.log(id);
-      console.log(res.data);
+      
     });
   };
   return (
@@ -67,8 +70,7 @@ const RentList = () => {
             </div>
           ))
       ) : (
-        <h2>No data Found</h2>
-      )}
+           <div>No data Found</div> )}
     </div>
   );
 };
