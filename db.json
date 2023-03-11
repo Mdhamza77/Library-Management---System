@@ -40,10 +40,9 @@
     {
       "firstName": "Alexander",
       "lastName": "Daddario",
-      "img": "https://images.mubicdn.net/images/cast_member/123734/cache-122372-1603289841/image-w856.jpg?size=800x",
-      "content": "Alexandra Anna Daddario is an American actress. She had her breakthrough portraying Annabeth Chase in the Percy Jackson film series. She has since starred as Paige in Hall Pass, Heather Miller in Texas Chainsaw 3D, Blake Gaines in San Andreas, Summer Quinn in Baywatch, and Alexis Butler in We Summon the Darkness",
       "email": "alexa007@gmail.com",
-      "password": "Aaaa@123",
+      "password": "Alexa@007",
+      "img": "https://static.toiimg.com/thumb/msid-65146267,imgsize-151589,width-800,height-600,resizemode-75/65146267.jpg",
       "id": 5
     }
   ],
@@ -52,8 +51,9 @@
       "title": "Origin",
       "Description": "Edmond Kirsch, a billionaire philanthropist, computer scientist, futurist, and strident atheist, attends a meeting at the Santa Maria de Montserrat Abbey in Catalonia (Spain) with Roman Catholic Bishop Antonio Valdespino,[4] Jewish Rabbi Yehuda Köves, and Muslim Imam Syed al-Fadl, members of the Parliament of the World's Religions. He informs them that he has made a revolutionary discovery that he plans to release to the public in a month. He has informed them out of respect, despite his hatred of organized religion, which he blames for his mother's death. The three learn that he is presenting it in three days' time, prompting Valdespino to demand that he stop.\n\nKirsch hosts an event at the Guggenheim Museum in Bilbao. Among those in attendance are Kirsch's former teacher, Robert Langdon, and the Guggenheim's curator Ambra Vidal, the fiancée of the future King of Spain, Prince Julián. The guests receive a headset through which they communicate with a voice named Winston, which reveals to Langdon that it is an artificial intelligence invented by Kirsch. Winston leads Langdon to a private meeting with Kirsch, who claims that his presentation will reveal humanity's origins and future.",
       "AuthorName": "Robert Langdon",
-      "Quantity": "10",
+      "Quantity": "11",
       "price": "200",
+      "Image": "https://m.media-amazon.com/images/I/91ZeWa2jVaL.jpg",
       "id": 1
     },
     {
@@ -63,15 +63,18 @@
       "category": "Thriller",
       "Quantity": "20",
       "price": "200",
-      "id": 2
+      "id": 2,
+      "Image": "https://m.media-amazon.com/images/P/055217212X.01._SCLZZZZZZZ_SX500_.jpg"
     },
     {
-      "title": "The Lost Symbol",
-      "Description": "Renowned Harvard symbologist Robert Langdon is invited to give a lecture at the United States Capitol, at the invitation apparently from his mentor, a 33rd degree Mason named Peter Solomon, who is the head of the Smithsonian Institution. Solomon has also asked him to bring a small, sealed package which he had entrusted to Langdon years earlier. When Langdon arrives at the Capitol, however, he learns that the invitation he received was not from Solomon, but from Solomon's kidnapper, Mal'akh posing as Solomon's assistant, who has left Solomon's severed right hand in the middle of the Capitol Rotunda in a recreation of the Hand of Mysteries. Mal'akh then contacts Langdon, charging him with finding both the Mason's Pyramid, which Masons believe is hidden somewhere in Washington, D.C., and the Lost Word, lest Solomon be murdered.\n\nLangdon meets Inoue Sato, the head of the CIA's Office of Security. Sato claims that Mal'akh poses a threat to the national security of the U.S. and that his capture is more important than Peter's rescue, although she refuses to elaborate. Examining Solomon's hand, they discover a clue leading them to Solomon's Masonic altar in a room in the Capitol's sub-basement, where they find a small pyramid lacking a capstone, with an inscription carved into it.\n\nSato then confronts Langdon with the security x-ray taken of his bag when he entered the Capitol which reveals a smaller pyramid in the package Langdon brought in response to the request by the kidnapper posing as Solomon's assistant. Langdon explains that he was unaware of its contents, but Sato, refusing to believe it, attempts to take Langdon into custody. Before she can arrest him, however, she and Capitol Police Chief Trent Anderson are assaulted by Warren Bellamy, the Architect of the Capitol and a Freemason, who then flees with Langdon in the confusion. He later explains to Langdon that he too has been in contact with Mal'akh and wants Langdon's assistance in rescuing Peter.",
-      "AuthorName": "Robert Langdon",
+      "title": "Daisy Jones & The Six",
+      "AuthorName": " Taylor Jenkins Reid",
+      "Description": "Everyone knows DAISY JONES & THE SIX, but nobody knows the reason behind their split at the absolute height of their popularity . . . until now.\n\nDaisy is a girl coming of age in L.A. in the late sixties, sneaking into clubs on the Sunset Strip, sleeping with rock stars, and dreaming of singing at the Whisky a Go Go. The sex and drugs are thrilling, but it’s the rock ’n’ roll she loves most. By the time she’s twenty, her voice is getting noticed, and she has the kind of heedless beauty that makes people do crazy things.\n\nAlso getting noticed is The Six, a band led by the brooding Billy Dunne. On the eve of their first tour, his girlfriend Camila finds out she’s pregnant, and with the pressure of impending fatherhood and fame, Billy goes a little wild on the road.\n\nDaisy and Billy cross paths when a producer realizes that the key to supercharged success is to put the two together. What happens next will become the stuff of legend.\n\nThe making of that legend is chronicled in this riveting and unforgettable novel, written as an oral history of one of the biggest bands of the seventies. Taylor Jenkins Reid is a talented writer who takes her work to a new level with Daisy Jones & The Six, brilliantly capturing a place and time in an utterly distinctive voice.",
       "Quantity": "20",
-      "price": "220",
-      "id": 3
+      "category": "Drama",
+      "price": "450",
+      "id": 3,
+      "Image": "https://m.media-amazon.com/images/I/71l+w6TvBML.jpg"
     },
     {
       "title": "No Plan B",
@@ -80,15 +83,17 @@
       "category": "Thriller",
       "Quantity": "10",
       "price": "100",
-      "id": 4
+      "id": 4,
+      "Image": "https://m.media-amazon.com/images/I/81EwJoYM6jL.jpg"
     },
     {
       "title": "A Passage to India",
       "Description": "British schoolmistress, Adela Quested, and her elderly friend, Mrs. Moore, visit the fictional Indian city of Chandrapore. Adela is to decide if she wants to marry Mrs. Moore's son, Ronny Heaslop, the city magistrate.\n\nMeanwhile, Dr. Aziz, a young Indian Muslim physician, is called from dining with friends by Major Callendar, Aziz's superior at the hospital, but is delayed. Disconsolate at finding him gone, Aziz walks back and enters his favourite mosque on impulse. Seeing Mrs Moore there, he yells at her not to profane this sacred place, but the two then chat and part as friends. When Mrs. Moore relates her experience later, Ronny becomes indignant at the native's presumption.\n\n",
       "AuthorName": " E. M. Forster ",
-      "Quantity": "18",
-      "category": "History",
+      "Quantity": "20",
+      "category": "Drama",
       "price": "200",
+      "Image": "https://m.media-amazon.com/images/I/91JSfRQAhYL.jpg",
       "id": 5
     },
     {
@@ -98,7 +103,8 @@
       "category": "History",
       "Quantity": "30",
       "price": "450",
-      "id": 6
+      "id": 6,
+      "Image": "https://m.media-amazon.com/images/I/81Szrt2KiPL.jpg"
     },
     {
       "title": "Genghis Khan and the Making of the Modern World",
@@ -107,7 +113,8 @@
       "category": "History",
       "Quantity": "20",
       "price": "400",
-      "id": 7
+      "id": 7,
+      "Image": "https://m.media-amazon.com/images/P/0609809644.01._SCLZZZZZZZ_SX500_.jpg"
     },
     {
       "title": "The Time Machine",
@@ -115,7 +122,8 @@
       "AuthorName": " H. G. Wells",
       "Quantity": "10",
       "price": "450",
-      "id": 8
+      "id": 8,
+      "Image": "https://m.media-amazon.com/images/I/61kIHuopR0L.jpg"
     },
     {
       "title": "The Art of War",
@@ -124,15 +132,16 @@
       "Quantity": "20",
       "category": "History",
       "price": "300",
-      "id": 9
+      "id": 9,
+      "Image": "https://m.media-amazon.com/images/I/41-0lBgMGvL.jpg"
     },
     {
-      "title": "Doing Data Science",
-      "AuthorName": " Rachel Schutt",
-      "Description": "Learn how to use R to turn raw data into insight, knowledge, and understanding. This book introduces you to R, RStudio, and the tidyverse, a collection of R packages designed to work together to make data science fast, fluent, and fun. Suitable for readers with no previous programming experience, R for Data Science is designed to get you doing data science as quickly as possible.\nYou’ll learn how to:\n\nWrangle—transform your datasets into a form convenient for analysis\nProgram—learn powerful R tools for solving data problems with greater clarity and ease\nExplore—examine your data, generate hypotheses, and quickly test them\nModel—provide a low-dimensional summary that captures true \"signals\" in your dataset\nCommunicate—learn R Markdown for integrating prose, code, and results.",
+      "title": "Lies and Deception",
+      "Description": "What do you do when the one person you thought you knew turns out to be the one you knew the least?Twenty-three year old Marissa Chase, and soon to be college graduate, has everything going for her: wonderful friends, a lucrative degree, and a chance to explore the world. What made it even better  or so she thought  was when her path crossed with the alluring Alec Holden. Unable to stay away from him, Marissa experiences a love like no other, and falls into his world of passion and intrigue. However, things begin to shift when this path takes a deadly turn.Her trust is put to the test when hidden dangers unfold before her, revealing secrets that have been buried for years. Secrets that were meant to stay hidden. Murder, lies, and betrayal  will Marissa figure it all out in time and escape with her life intact, or will she be too late and fall into the trap of deception?",
+      "AuthorName": "Chris Taylor",
       "Quantity": "10",
-      "category": "Computer Science",
-      "price": "400",
+      "price": "250",
+      "Image": "https://m.media-amazon.com/images/I/51pnprnaZHL._BG0,0,0,0_FMpng_AC_SY320_SX320_.jpg",
       "id": 10
     },
     {
@@ -142,41 +151,20 @@
       "Quantity": "10",
       "price": "1200",
       "category": "Crime",
-      "id": 11
+      "id": 11,
+      "Image": "https://m.media-amazon.com/images/I/71bhR8QDlPL.jpg"
     },
     {
-      "title": "Daisy Jones & The Six: A Novel",
-      "AuthorName": " Taylor Jenkins Reid",
-      "Description": "Everyone knows DAISY JONES & THE SIX, but nobody knows the reason behind their split at the absolute height of their popularity . . . until now.\n\nDaisy is a girl coming of age in L.A. in the late sixties, sneaking into clubs on the Sunset Strip, sleeping with rock stars, and dreaming of singing at the Whisky a Go Go. The sex and drugs are thrilling, but it’s the rock ’n’ roll she loves most. By the time she’s twenty, her voice is getting noticed, and she has the kind of heedless beauty that makes people do crazy things.\n\nAlso getting noticed is The Six, a band led by the brooding Billy Dunne. On the eve of their first tour, his girlfriend Camila finds out she’s pregnant, and with the pressure of impending fatherhood and fame, Billy goes a little wild on the road.\n\nDaisy and Billy cross paths when a producer realizes that the key to supercharged success is to put the two together. What happens next will become the stuff of legend.\n\nThe making of that legend is chronicled in this riveting and unforgettable novel, written as an oral history of one of the biggest bands of the seventies. Taylor Jenkins Reid is a talented writer who takes her work to a new level with Daisy Jones & The Six, brilliantly capturing a place and time in an utterly distinctive voice.",
-      "Quantity": "20",
-      "price": "450",
-      "id": 12
-    }
-  ],
-  "Rent": [
-    {
-      "title": "Doing Data Science",
-      "Description": "Learn how to use R to turn raw data into insight, knowledge, and understanding. This book introduces you to R, RStudio, and the tidyverse, a collection of R packages designed to work together to make data science fast, fluent, and fun. Suitable for readers with no previous programming experience, R for Data Science is designed to get you doing data science as quickly as possible.\nYou’ll learn how to:\n\nWrangle—transform your datasets into a form convenient for analysis\nProgram—learn powerful R tools for solving data problems with greater clarity and ease\nExplore—examine your data, generate hypotheses, and quickly test them\nModel—provide a low-dimensional summary that captures true \"signals\" in your dataset\nCommunicate—learn R Markdown for integrating prose, code, and results.",
-      "AuthorName": " Rachel Schutt",
-      "price": "400",
-      "email": "shafaaz123@gmail.com",
-      "RentFrom": "Mon Feb 06 2023",
-      "RentUpto": "Thu Feb 09 2023",
-      "BookId": "10",
-      "id": 6
-    },
-    {
-      "title": "Origin",
-      "Description": "Edmond Kirsch, a billionaire philanthropist, computer scientist, futurist, and strident atheist, attends a meeting at the Santa Maria de Montserrat Abbey in Catalonia (Spain) with Roman Catholic Bishop Antonio Valdespino,[4] Jewish Rabbi Yehuda Köves, and Muslim Imam Syed al-Fadl, members of the Parliament of the World's Religions. He informs them that he has made a revolutionary discovery that he plans to release to the public in a month. He has informed them out of respect, despite his hatred of organized religion, which he blames for his mother's death. The three learn that he is presenting it in three days' time, prompting Valdespino to demand that he stop.\n\nKirsch hosts an event at the Guggenheim Museum in Bilbao. Among those in attendance are Kirsch's former teacher, Robert Langdon, and the Guggenheim's curator Ambra Vidal, the fiancée of the future King of Spain, Prince Julián. The guests receive a headset through which they communicate with a voice named Winston, which reveals to Langdon that it is an artificial intelligence invented by Kirsch. Winston leads Langdon to a private meeting with Kirsch, who claims that his presentation will reveal humanity's origins and future.",
+      "title": "The Lost Symbol",
+      "Description": "Renowned Harvard symbologist Robert Langdon is invited to give a lecture at the United States Capitol, at the invitation apparently from his mentor, a 33rd degree Mason named Peter Solomon, who is the head of the Smithsonian Institution. Solomon has also asked him to bring a small, sealed package which he had entrusted to Langdon years earlier. When Langdon arrives at the Capitol, however, he learns that the invitation he received was not from Solomon, but from Solomon's kidnapper, Mal'akh posing as Solomon's assistant, who has left Solomon's severed right hand in the middle of the Capitol Rotunda in a recreation of the Hand of Mysteries. Mal'akh then contacts Langdon, charging him with finding both the Mason's Pyramid, which Masons believe is hidden somewhere in Washington, D.C., and the Lost Word, lest Solomon be murdered.\n\nLangdon meets Inoue Sato, the head of the CIA's Office of Security. Sato claims that Mal'akh poses a threat to the national security of the U.S. and that his capture is more important than Peter's rescue, although she refuses to elaborate. ",
       "AuthorName": "Robert Langdon",
-      "price": "200",
-      "email": "muhaimin123@gmail.com",
-      "RentFrom": "Thu Feb 16 2023",
-      "RentUpto": "Tue Feb 21 2023",
-      "BookId": "1",
-      "id": 7
+      "Quantity": "20",
+      "price": "220",
+      "id": 12,
+      "Image": "https://m.media-amazon.com/images/P/059305427X.01._SCLZZZZZZZ_SX500_.jpg"
     }
   ],
+  "Rent": [],
   "FeedBack": [
     {
       "User": "James Gunn",
@@ -197,19 +185,23 @@
   "Category": [
     {
       "id": 1,
-      "category": "Thriller"
+      "category": "Thriller",
+      "Img": "https://m.media-amazon.com/images/I/81EwJoYM6jL.jpg"
     },
     {
       "id": 2,
-      "category": "History"
+      "category": "History",
+      "Img": "https://m.media-amazon.com/images/I/41-0lBgMGvL.jpg"
     },
     {
       "id": 3,
-      "category": "Crime"
+      "category": "Crime",
+      "Img": "https://m.media-amazon.com/images/I/71bhR8QDlPL.jpg"
     },
     {
       "id": 4,
-      "category": "Computer Science"
+      "category": "Drama",
+      "Img": "https://m.media-amazon.com/images/I/71l+w6TvBML.jpg"
     }
   ],
   "Cards": [

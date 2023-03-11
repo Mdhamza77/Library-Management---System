@@ -1,0 +1,115 @@
+
+html {
+    height: auto;
+    font-size: 62%;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color :cornflowerblue;
+    padding: 1rem 9%;
+    display: flex;
+    color: #333;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  }
+
+
+  header .navbar a {
+     font-size: 2rem; 
+    padding: 0 1.5rem;  
+    color: black;
+  }
+
+  header .navbar a:hover {
+    color: #333;
+     text-decoration: underline;
+  }
+
+  header .icons a{
+     font-size: 2rem; 
+    color: #333;
+    margin-left: 1.5rem;
+    
+  }
+
+  header .icons a:hover {
+     color: #333;
+     text-decoration: underline;
+  }
+  
+  .card h1{
+    text-align: center;
+    
+  }
+
+  .card {
+    
+    margin-left: 1em;
+    margin-right: 1em;
+    
+  }
+
+  ul{
+    list-style: none;
+    display: inline-flex;
+
+
+  }
+
+  
+.pagination a{
+  color: green; 
+  float: left;
+  border: 0.5px solid black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+.div{
+  text-align: center;
+}
+
+.Book {
+  margin-top: 2em;
+  align-content: center;
+  /* position : fixed; */
+  left: 8em;
+
+  
+}
+
+.book-Img{
+  width: 20em;
+  height: 25em;
+  float: left;
+  display: flex; 
+  position: relative;
+  left: -100px;
+  padding: 12px 10px;
+}
+
+#Button div{
+   display: flex;
+   position: relative; 
+   align-content: center;
+}
+ .user-Img{
+  width: 12em;
+  height: 12em;
+  float: left;
+  display: flex; 
+  position: relative;
+  left: -100px;
+  padding: 12px 10px;
+}
+ 
+
+.cat{
+  padding: 2em 2em;
+}
