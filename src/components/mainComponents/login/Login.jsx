@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 import { userValidate } from "./../../../services/user/user.service";
 import showPwdImg from "../../../assets/icons/show-password.svg";
 import hidePwdImg from "../../../assets/icons/hide-password.svg";
-import { MDBCol } from "mdb-react-ui-kit";
+
 
 const Login = () => {
   const [email, setEmail] = useState("");
