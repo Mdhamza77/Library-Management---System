@@ -164,7 +164,19 @@
       "Image": "https://m.media-amazon.com/images/P/059305427X.01._SCLZZZZZZZ_SX500_.jpg"
     }
   ],
-  "Rent": [],
+  "Rent": [
+    {
+      "title": "Inferno",
+      "Description": "Harvard symbolism professor Robert Langdon wakes up in a hospital in Florence, Italy with a head wound and no memory of the last few days. Dr. Sienna Brooks, one of the doctors tending to him, reveals that he is suffering from amnesia and hearing a woman's voice repeatedly saying \"seek and find\". When Vayentha, an assassin, shows up in the hospital and kills one of the doctors, while attempting to kill Langdon, Brooks helps Langdon escape, and they flee to her apartment. Brooks plays a tape recording on which Langdon repeats what sounds like \"Very sorry\".\n\nLangdon finds a cylinder with a biohazard sign in his jacket and decides to call the U.S. consulate. He learns that they are searching for him, but, prompted by Brooks, claims to be across the street from her apartment, to avoid getting her more involved. Soon, Langdon sees Vayentha pull up to the location he gave the consulate. He deduces that the U.S. government wants to kill him. Langdon opens the container and finds a small medieval bone cylinder fitted with a hi-tech projector (Faraday Pointer) that displays a modified version of Botticelli's Map of Hell, which is based on Dante's Inferno. A trail of clues leads them toward the Old City.",
+      "AuthorName": "Robert Langdon",
+      "price": "200",
+      "email": "muhaimin123@gmail.com",
+      "RentFrom": "Sun Mar 12 2023",
+      "RentUpto": "Sun Mar 12 2023",
+      "BookId": "2",
+      "id": 1
+    }
+  ],
   "FeedBack": [
     {
       "User": "James Gunn",
