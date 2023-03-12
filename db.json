@@ -162,6 +162,15 @@
       "price": "220",
       "id": 12,
       "Image": "https://m.media-amazon.com/images/P/059305427X.01._SCLZZZZZZZ_SX500_.jpg"
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
     }
   ],
   "Rent": [
@@ -192,6 +201,15 @@
       "User": "armas07@gmail.com",
       "feed": "Academic libraries have for centuries played critically important roles in supporting the education system. A statistically significant correlation between library use and academic productivity has been found. Recently, libraries have not been used at the optimum level. To design library services, user studies are being conducted by many researchers",
       "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
     }
   ],
   "Category": [
