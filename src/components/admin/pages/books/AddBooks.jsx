@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { addBooks } from "../../../../services/book/book.service";
 import { toast } from "react-toastify";
 
+
 const AddBooks = () => {
   const isUserLoggedin = sessionStorage.getItem("isUserLoggedin")
     ? sessionStorage.getItem("isUserLoggedin")
@@ -18,7 +19,8 @@ const AddBooks = () => {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState("");
   const [price, setPrice] = useState("");
-  const [img ,setImg] = useState("")
+  const [img, setImg] = useState("");
+  const [category, setCategory] = useState("");
   const [data, setData] = useState("");
 
   const handleSubmit = (e) => {
@@ -28,7 +30,8 @@ const AddBooks = () => {
       Description: description,
       Quantity: quantity,
       price: price,
-      Image : img 
+      Image: img,
+      category: category,
     };
 
     e.preventDefault();
@@ -41,7 +44,8 @@ const AddBooks = () => {
         setDescription("");
         setQuantity("");
         setPrice("");
-        setImg("")
+        setImg("");
+        setCategory("");
         toast("Added Successfully");
       })
       .catch((err) => {
@@ -71,6 +75,16 @@ const AddBooks = () => {
                 />
               </Form.Field>
               <Form.Field>
+                <label>Book Category</label>
+
+                <input
+                  type="text"
+                  value={category}
+                  placeholder="Category types"
+                  onChange={(e) => setCategory(e.target.value)}
+                />
+              </Form.Field>
+              <Form.Field>
                 <label htmlFor="author">Author Name</label>
                 <input
                   type="text"
@@ -83,12 +97,14 @@ const AddBooks = () => {
                 />
               </Form.Field>
               <Form.Field>
-                    <label>Book Image</label>
-                    <input type='text' value={img} 
-                       placeholder = 'profile image'
-                       onChange={(e)=>setImg(e.target.value)}
-                    />
-                </Form.Field>
+                <label>Book Image</label>
+                <input
+                  type="text"
+                  value={img}
+                  placeholder="profile image"
+                  onChange={(e) => setImg(e.target.value)}
+                />
+              </Form.Field>
               <Form.Field>
                 <label htmlFor="description">Description</label>
                 <TextArea
