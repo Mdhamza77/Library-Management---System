@@ -1,5 +1,5 @@
 import { render  } from "@testing-library/react";
-import Home from "./home";
+import Home from "./UHome";
 
 jest.mock("react-router-dom", () => ({
     ...jest.requireActual("react-router-dom"),
